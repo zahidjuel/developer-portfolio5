@@ -1,0 +1,75 @@
+/* common css style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section styles */
+header {
+    margin: 50px 230px;
+}
+
+/* navigation section style */
+nav {
+    display: flex;
+    justify-content: space-between
+}
+
+.text-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.word-color{
+    color: #FD6E0A;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0px 12px;
+}
+
+/* primary button style */
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn-secondary{
+    padding: 12px 18px;
+    border:  1px solid #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #FD6E0A;
+    margin-left: 16px;
+}
+
+/* banner section style */
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.author-name{
+    font-size: 50px;
+    font-weight: 700;
+}
+.author-description{
+    margin: 20px 0px;
+}
+.photo img{
+    width: 100%;
+}
