@@ -9,19 +9,27 @@
 }
 
 /* header section styles */
-header {
-    margin: 50px 230px;
+header{
+    background-color:  #FFF8F3;
+    background-image: url('images/developer.png'), url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: 50px 555px, 700px 450px;
+    background-position: 15px 10px,bottom right;
+}
+.first-section {
+    margin: 0px 140px 0px;
 }
 
 /* navigation section style */
 nav {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    padding-top: 40px;
 }
 
 .text-title{
     color: #181818;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 800;
     letter-spacing: 3px;
 }
@@ -57,6 +65,10 @@ nav ul li{
     margin-left: 16px;
 }
 
+.fa-solid{
+    margin-right: 10px;
+}
+
 /* banner section style */
 .banner{
     display: flex;
@@ -64,12 +76,13 @@ nav ul li{
 }
 
 .author-name{
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 700;
 }
 .author-description{
     margin: 20px 0px;
 }
 .photo img{
-    width: 100%;
+    width: 90%;
+    margin-top: 30px;
 }
