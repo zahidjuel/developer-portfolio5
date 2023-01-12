@@ -9,13 +9,14 @@
 }
 
 /* header section styles */
-header{
-    background-color:  #FFF8F3;
+header {
+    background-color: #FFF8F3;
     background-image: url('images/developer.png'), url('images/header_bg.png');
     background-repeat: no-repeat;
     background-size: 50px 555px, 700px 450px;
-    background-position: 15px 10px,bottom right;
+    background-position: 15px 10px, bottom right;
 }
+
 .first-section {
     margin: 0px 140px 0px;
 }
@@ -27,27 +28,29 @@ nav {
     padding-top: 40px;
 }
 
-.text-title{
+.text-title {
     color: #181818;
     font-size: 30px;
     font-weight: 800;
     letter-spacing: 3px;
 }
-.word-color{
+
+.word-color {
     color: #FD6E0A;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style-type: none;
     padding: 0px 12px;
 }
 
 /* primary button style */
-.btn-primary{
+.btn-primary {
     background-color: #FD6E0A;
     padding: 12px 18px;
     border: 0;
@@ -56,33 +59,63 @@ nav ul li{
     color: #fff;
 }
 
-.btn-secondary{
+.btn-secondary {
     padding: 12px 18px;
-    border:  1px solid #FD6E0A;
+    border: 1px solid #FD6E0A;
     border-radius: 5px;
     font-weight: 700;
     color: #FD6E0A;
     margin-left: 16px;
 }
 
-.fa-solid{
+.fa-solid {
     margin-right: 10px;
 }
 
 /* banner section style */
-.banner{
+.banner {
     display: flex;
     align-items: center;
 }
 
-.author-name{
+.author-name {
     font-size: 80px;
     font-weight: 700;
 }
-.author-description{
+
+.author-description {
     margin: 20px 0px;
 }
-.photo img{
+
+.photo img {
     width: 90%;
     margin-top: 30px;
+}
+
+/* about me section style */
+main{
+    width: 1150px;
+    margin: 100px auto;  
+}
+
+.about-me{
+    text-align: center;
+    padding: 100px 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.section-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.author-information{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+h4{
+    color:#757575;
+    font-size: 14px;
 }
