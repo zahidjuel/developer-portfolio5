@@ -23,6 +23,10 @@ body {
     border-radius: 5px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* header styles */
 header {
     background-color: #FFF8F3;
@@ -165,10 +169,17 @@ nav ul li a {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
-.skill-card h3{
+.skill-card h3 {
     margin: 15px 0px;
 }
 
-.skill-description{
+.skill-description {
     color: #757575;
+}
+
+/* resume section style */
+.resume-container {
+    display: flex;
+    gap: 70px;
+    margin: 60px 0px;
 }
